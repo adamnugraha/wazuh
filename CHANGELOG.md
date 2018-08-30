@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 ## [v3.7.0]
 
+### Fixed
+
+- Fixed manager stopping when no command timeout is allowed ([#1194](https://github.com/wazuh/wazuh/pull/1194))
 
 ## [v3.6.0] - 2018-08-29
 
