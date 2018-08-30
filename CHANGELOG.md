@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 ## [v3.7.0]
 
+### Added
+
+- Added rule testing output when restarting manager ([#1196](https://github.com/wazuh/wazuh/pull/1196))
 
 ## [v3.6.0] - 2018-08-29
 
