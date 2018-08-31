@@ -43,6 +43,7 @@ All notable changes to this project will be documented in this file.
 - Fix Red Hat vulnerability database update. ([#1127](https://github.com/wazuh/wazuh/pull/1127))
 - Fix allowing more than one wodle command. ([#1128](https://github.com/wazuh/wazuh/pull/1128))
 - Fixed `after_regex` offset for the decoding algorithm. ([#1129](https://github.com/wazuh/wazuh/pull/1129))
+- Fix 0 value at check options from Syscheck. ([1209](https://github.com/wazuh/wazuh/pull/1209))
 
 ### Removed
 
