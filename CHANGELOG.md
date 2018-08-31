@@ -3,6 +3,9 @@ All notable changes to this project will be documented in this file.
 
 ## [v3.7.0]
 
+### Fixed
+
+- Fixed mandatory configuration labels check ([#1208](https://github.com/wazuh/wazuh/pull/1208))
 
 ## [v3.6.0] - 2018-08-29
 
