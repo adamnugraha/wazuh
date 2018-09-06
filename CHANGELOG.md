@@ -17,6 +17,7 @@ All notable changes to this project will be documented in this file.
 - Fix bug in folder recursion limit count in FIM real-time mode. ([#1226](https://github.com/wazuh/wazuh/issues/1226))
 - Fixed errors when parsing AWS events in Elasticsearch. ([#1229](https://github.com/wazuh/wazuh/issues/1229))
 - Fix bug when launching osquery from Wazuh. ([#1230](https://github.com/wazuh/wazuh/issues/1230))
+- Fix typo in whodata alerts. ([#1242](https://github.com/wazuh/wazuh/issues/1242))
 
 
 ## [v3.6.0] 2018-08-29
