@@ -34,6 +34,9 @@
 #define WM_POOL_SIZE    8                           // Child process pool size.
 #define WM_HEADER_SIZE  OS_SIZE_2048
 
+#define WM_DEF_TIMEOUT      1800            // Default runtime limit (30 minutes)
+#define WM_DEF_INTERVAL     86400           // Default cycle interval (1 day)
+
 #define DAY_SEC    86400
 #define WEEK_SEC   604800
 
@@ -75,6 +78,7 @@ typedef enum crypto_type {
 #include "wm_vuln_detector.h"
 #include "wm_osquery_monitor.h"
 #include "wm_download.h"
+#include "wm_azure.h"
 
 extern wmodule *wmodules;       // Loaded modules.
 extern int wm_task_nice;        // Nice value for tasks.
@@ -172,5 +176,8 @@ int wm_get_path(const char *binary, char **validated_comm);
     -2 invalid parameters.
 */
 int wm_validate_command(const char *command, const char *digest, crypto_type ctype);
+
+// Sleep function for Windows and Unix (milliseconds)
+void wm_delay(unsigned int ms);
 
 #endif // W_MODULES
